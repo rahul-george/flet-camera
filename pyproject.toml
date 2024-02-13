@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pythonproject"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pypylon = "^1.9.0"
+numpy = "^1.24.3"
+matplotlib = "^3.7.1"
+flet = "^0.7.4"
+opencv-python = "^4.7.0.72"
+pypubsub = "^4.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
